@@ -29,7 +29,13 @@ fi
 
 create_default_configs() {
     cat > configs.json << EOL
-{ "limit": 100, "countdown": 86400, "country_time": "en-US", "upgrade": true }
+{
+  "limit": 100,
+  "countdown": 86400,
+  "country_time": "en-US",
+  "upgrade": true,
+  "delayEachAccount": [1, 81]
+}
 EOL
 }
 
