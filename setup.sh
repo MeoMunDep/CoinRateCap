@@ -29,18 +29,7 @@ fi
 
 create_default_configs() {
     cat > configs.json << EOL
-{
-    "timeZone": "en-US",
-    "rotateProxy": false,
-    "skipInvalidProxy": false,
-    "proxyRotationInterval": 2,
-    "delayEachAccount": [5, 8],
-    "timeToRestartAllAccounts": 300,
-    "howManyAccountsRunInOneTime": 10,
-    "doTasks": true,
-    "playGames": true,
-    "referralCode": ""
-}
+{ "limit": 100, "countdown": 86400, "country_time": "en-US", "upgrade": true }
 EOL
 }
 
