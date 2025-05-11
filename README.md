@@ -42,9 +42,11 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 
 ```json
 {
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "limit": 100,
+  "countdown": 86400,
+  "country_time": "en-US",
+  "upgrade": true,
+  "delayEachAccount": [1, 81]
 }
 ```
 
